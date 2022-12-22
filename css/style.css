@@ -28,14 +28,14 @@ body {
 }
 
 
-#about-me > .container {
+#headline > .container {
     display: flex;
     justify-content:center;
     align-items:center;
     
 }
 
-#about-me h1 {
+#headline h1 {
     margin-left: 30px;
 }
 
@@ -48,12 +48,16 @@ h2 {
     color: #81B29A;
 }
 
+h4 {
+    color: #81B29A;
+}
+
 .font-dark {
     color:#5e5f5f ;
 }
 
-.my-4 {
-    background-color: white;
+.my-1 {
+    background-color: white !important;
 }
 
 #work > .container {
@@ -68,6 +72,9 @@ h2 {
     margin: 0px 50px 0px 50px;
 }
 
+footer .container {
+    margin: 0px 50px 0px 50px;
+}
 
 
 /* Media Queries */
