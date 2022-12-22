@@ -44,13 +44,29 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    color: #81B29A;
+}
+
 .font-dark {
     color:#5e5f5f ;
 }
 
+.my-4 {
+    background-color: white;
+}
 
+#work > .container {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #3D405B;
+    
+}
 
-
+.container-fluid {
+    margin: 0px 50px 0px 50px;
+}
 
 
 
@@ -65,6 +81,13 @@ h1 {
 @media (min-width: 544px) {  
     h1 {font-size:1.5rem;} /*1rem = 16px*/
   }
+
+@media (min-width: 576px) {
+  .jumbotron {
+      padding: 2rem 2rem;
+    } 
+  }
+  
    
   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
   @media (min-width: 768px) {  
