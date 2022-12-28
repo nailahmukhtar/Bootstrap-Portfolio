@@ -1,11 +1,19 @@
 /* Container Border - Helper CSS */
 /* .container {
-    border: red solid 3px !important;
+    border: green solid 3px !important;
+} */
+/* 
+.container-fluid {
+    border: red solid 2px;
+} */
+
+/* .row   {
+    border: solid red 2px;
 } */
 
 .navbar {
     background-color: #FFFFFF;
-    /* margin: 50px 50px 0px 50px; */
+    margin: 0px 150px 0px 150px;
 }
 
 .navbar-light,
@@ -41,6 +49,7 @@ h1 {
 
 h2 {
     color: #2EC4B6;
+    font-size: 38px;
 }
 
 h4 {
@@ -52,47 +61,48 @@ h4 {
 }
 
 .my-1 {
-    background-color: #f2f7f2 !important;
+    background-color: #FFBF69 !important;
 }
 
-#work > .container {
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    background-color: #3D405B;
-    flex-direction: column;
-}
 
-#project-small {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content:space-evenly;
-    align-items:center;
-    background-color: #E07A5F;
-
-
-}
-
-/* .container-fluid {
-    margin: 0px 50px 0px 50px;
-} */
 
 footer .container {
     margin: 0px 50px 0px 50px;
 }
 
 .card {
-    margin: 20px;
+    /* margin: 20px; */
+    /* width: 75%; */
+    margin-top: 20px;
     height: 275px;
-    background-color: #6c719d;
+    background-color: #CBF3F0;
+    border: solid #2EC4B6 4px;
+    /* box-shadow: 2px 2px 2px 3px #929295; */
+    /* border-radius: 5px; */
 }
 .card-body {
-    background-color: #6c719d;
-    margin: 40px 0px 40px 10px;
+    background-color: #CBF3F0;
+    /* margin: 40px 0px 40px 10px; */
+    margin: 20px;
+}
+
+.card:hover {
+        box-shadow: 2px 2px 30px #929295;
 }
 
 .btn {
-    background-color: #36827f;
+    /* background-color: #2EC4B6;
+    border: solid 1px #2EC4B6;
+    box-shadow: 3px 3px #81B29A; */
+    background-color: #CBF3F0;
+    border: none;
+    color: #000000;
+    padding: 0px !important;   
+}
+
+.btn:hover {
+    background-color: #2EC4B6;
+    padding: 0.375rem 0.75rem !important;
 }
 
 
