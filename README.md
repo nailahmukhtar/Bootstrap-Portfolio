@@ -4,7 +4,7 @@ My personal portfolio website built using the Bootstrap CSS Framework.
 ## Description
 
 ### Purpose
-Build a copy of my previous portfolio website (www.nailahmukhtar.github.io/Portfolio) using the Bootstrap framework to showcase the work I can do using prebuilt components. I built this with a view to showcasing the skills I have learnt so far with css frameworks.
+Build a copy of my [previous portfolio website](https://nailahmukhtar.github.io/Portfolio) using the Bootstrap framework to showcase the work I can do using prebuilt components. I built this with a view to showcasing the skills I have learnt so far with css frameworks.
 
 What I did
 - When the page is loaded the website presents the following, which all build on bootstrap components
