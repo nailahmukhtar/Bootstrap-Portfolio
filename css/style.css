@@ -140,19 +140,28 @@ i {
 
 /* Extra Small devices (landscape phones, 425px and up) */
 @media (min-width: 425px) {  
-    h1 {font-size:2rem;} /*1rem = 16px*/
+    h1 {font-size:3rem;} /*1rem = 16px*/
     .sticky-top {position: relative;}
+    .navbar-brand {
+       display: none;
+    }
   }
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
-    h1 {font-size:1.5rem;} /*1rem = 16px*/
+    h1 {font-size:3rem;} /*1rem = 16px*/
     .sticky-top {position: relative;}
+    .navbar-brand {
+        display: none;
+     }
   }
 
 @media (min-width: 576px) {
   .jumbotron {padding: 2rem 2rem;} 
     .sticky-top {position: relative;}
+    .navbar-brand {
+        display: none;
+     }
   }
   
    
@@ -160,16 +169,28 @@ i {
   @media (min-width: 768px) {  
     h1 {font-size:3.5rem;} /*1rem = 16px*/
     .sticky-top {position: sticky;}
+    .navbar-brand {
+        display: block;
+
+}
   }
    
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) { 
     h1 {font-size:2.5rem;} /*1rem = 16px*/
     .sticky-top {position: sticky;}
+    .navbar-brand {
+        display: block;
+
+}
   }
 
   /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
+    @media (min-width: 1200px) {  
     h1 {font-size:4rem;} /*1rem = 16px*/    
     .sticky-top {position: sticky;}
-  }
+
+    .navbar-brand {
+        display: block;
+    }
+     } 
