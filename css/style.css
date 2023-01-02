@@ -106,6 +106,9 @@ i {
 
 #contact a {
     color: var(--fontTeal);
+    filter:drop-shadow(5px 5px 12px #929295);
+    opacity: 1;
+
 }
 
 #contact a:hover {
@@ -131,31 +134,35 @@ i {
 /* Extra Small devices (landscape phones, 425px and up) */
 @media (min-width: 425px) {  
     h1 {font-size:2rem;} /*1rem = 16px*/
+    .sticky-top {position: relative;}
   }
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
     h1 {font-size:1.5rem;} /*1rem = 16px*/
+    .sticky-top {position: relative;}
   }
 
 @media (min-width: 576px) {
-  .jumbotron {
-      padding: 2rem 2rem;
-    } 
+  .jumbotron {padding: 2rem 2rem;} 
+    .sticky-top {position: relative;}
   }
   
    
   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
   @media (min-width: 768px) {  
     h1 {font-size:3.5rem;} /*1rem = 16px*/
+    .sticky-top {position: sticky;}
   }
    
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) { 
     h1 {font-size:2.5rem;} /*1rem = 16px*/
+    .sticky-top {position: sticky;}
   }
 
   /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
     h1 {font-size:4rem;} /*1rem = 16px*/    
+    .sticky-top {position: sticky;}
   }
