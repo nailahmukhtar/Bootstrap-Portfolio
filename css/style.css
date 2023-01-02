@@ -1,13 +1,22 @@
+:root {
+    --fontOrange: #FFBF69;
+    --fontTeal: #2EC4B6;
+
+}
 /* Container Border - Helper CSS */
 .container {
     /* border: green solid 3px !important; */
     margin-top: 30px;
 }
 
+body > .container-fluid {
+    margin-bottom: 0;
+}
+
 .container-fluid {
     /* border: red solid 2px; */
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 150px;
 }
 
 /* .row   {
@@ -17,6 +26,7 @@
 .navbar {
     background-color: #FFFFFF;
     margin: 0px 150px 0px 150px;
+    
 }
 
 .navbar-light,
@@ -63,15 +73,6 @@ h4 {
     color:#FFBF69 ;
 }
 
-.my-1 {
-    background-color: #FFBF69 !important;
-}
-
-
-
-footer .container {
-    margin: 0px 50px 0px 50px;
-}
 
 #work .card {
     margin-top: 20px;
@@ -101,15 +102,29 @@ footer .container {
 
 i {
     padding: 10px;
-
 }
-/* #css-cheatsheet {
-    background-image: url(../images/css-cheatsheet.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.6;
 
-} */
+#contact a {
+    color: var(--fontTeal);
+}
+
+#contact a:hover {
+    color: var(--fontOrange);
+}
+
+#contact .container {
+    align-items: center;
+}
+
+#contact .container-fluid {
+    /* border: solid red 2px; */
+   margin: 0 
+}
+
+#skills .container-fluid {
+    margin-bottom: 100px;
+}
+
 
 /* Media Queries */
 
